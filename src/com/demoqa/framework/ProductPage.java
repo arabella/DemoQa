@@ -8,8 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 public class ProductPage {
 	
 	private static int lastCount;
-	public static int previuosItemsInCartCount;
-	public static int currentItemsInCartCount;
+	private static int previuosItemsInCartCount;
+	private static int currentItemsInCartCount;
 	
 	public static int getPreviuosItemsInCartCount() {
 		return lastCount;
@@ -20,7 +20,7 @@ public class ProductPage {
 	}
 
 	public static void goTo() {
-		Driver.Instance.navigate().to("http://store.demoqa.com");
+		Driver.goTo("");
 	}
 	
 	public static String getPageTitle()

@@ -1,9 +1,7 @@
-package com.demoqa.tests;
+package com.demoqa.framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import com.demoqa.framework.Driver;
 
 public class ShoppingCart {
 

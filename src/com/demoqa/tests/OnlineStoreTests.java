@@ -1,9 +1,12 @@
 package com.demoqa.tests;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
+
 import com.demoqa.framework.ProductPage;
 import com.demoqa.framework.SearchForm;
+import com.demoqa.framework.ShoppingCart;
 import com.demoqa.framework.UserLoggedView;
 
 public class OnlineStoreTests extends BaseTest {
